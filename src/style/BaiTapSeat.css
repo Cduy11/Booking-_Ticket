@@ -1,0 +1,21 @@
+.bg-image {
+  background-image: url('/public/bgmovie.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 100vh; 
+}
+
+.legend-item {
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-bottom: 8px; /* Khoảng cách dưới mỗi mục chú thích */
+  }
+  
+  .color-box {
+    width: 30px; /* Chiều rộng của ô màu */
+    height: 30px; /* Chiều cao của ô màu */
+    border-radius: 5px; /* Bo tròn góc */
+    margin-right: 10px; /* Khoảng cách giữa ô màu và văn bản */
+  }
+  
